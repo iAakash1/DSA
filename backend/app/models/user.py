@@ -146,8 +146,24 @@ class PlatformAccount(UUIDPrimaryKey, Timestamps, Base):
     #: Opaque per-integration cursor (e.g. highest submission id already seen).
     sync_cursor: Mapped[dict | None] = mapped_column(JSONType)
 
-    #: Platform-reported rating snapshot, refreshed on sync.
+    #: Platform-reported snapshot, refreshed on sync.
+    #:
+    #: All nullable, and null means "this platform does not expose it" — not
+    #: zero. A user with no rating and a platform with no rating API are
+    #: different facts, and the UI renders the second as Unavailable.
     current_rating: Mapped[int | None] = mapped_column(Integer)
     max_rating: Mapped[int | None] = mapped_column(Integer)
+    #: Platform-specific title or standing: Codeforces "expert", LeetCode
+    #: "#12,345". Free text because no two platforms agree on what a rank is.
+    rank: Mapped[str | None] = mapped_column(String(64))
+    problems_solved: Mapped[int | None] = mapped_column(Integer)
+    contests_participated: Mapped[int | None] = mapped_column(Integer)
+    #: e.g. {"easy": 120, "medium": 240, "hard": 30}. Only LeetCode reports
+    #: this today; JSON keeps a platform-specific shape out of the schema.
+    difficulty_breakdown: Mapped[dict | None] = mapped_column(JSONType)
+    #: Which fields came from an official API vs a community source, per
+    #: `integrations.connectors.Provenance`. Kept so the UI can label a
+    #: community-derived figure instead of presenting it as authoritative.
+    stat_provenance: Mapped[dict | None] = mapped_column(JSONType)
 
     profile: Mapped[Profile] = relationship(back_populates="platform_accounts")

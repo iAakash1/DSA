@@ -11,6 +11,8 @@ from datetime import date, datetime
 from pydantic import BaseModel, Field, field_validator
 
 from app.models.enums import (
+    CONNECTABLE_PLATFORMS,
+    ContestPlatform,
     MistakeType,
     NoteKind,
     ProblemStatus,
@@ -50,8 +52,9 @@ class PlatformAccountRequest(BaseModel):
     @classmethod
     def _platform(cls, v: str) -> str:
         v = v.strip().lower()
-        if v not in ("codeforces", "leetcode"):
-            raise ValueError("platform must be 'codeforces' or 'leetcode'")
+        if v not in CONNECTABLE_PLATFORMS:
+            allowed = ", ".join(CONNECTABLE_PLATFORMS)
+            raise ValueError(f"platform must be one of: {allowed}")
         return v
 
     @field_validator("username")
@@ -159,8 +162,9 @@ class ContestRequest(BaseModel):
     @classmethod
     def _platform(cls, v: str) -> str:
         v = v.strip().lower()
-        if v not in ("codeforces", "leetcode", "codechef"):
-            raise ValueError("platform must be codeforces, leetcode or codechef")
+        if v not in tuple(ContestPlatform):
+            allowed = ", ".join(ContestPlatform)
+            raise ValueError(f"platform must be one of: {allowed}")
         return v
 
 

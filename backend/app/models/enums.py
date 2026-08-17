@@ -24,10 +24,29 @@ class Platform(StrEnum):
     LEETCODE = "leetcode"
     CODEFORCES = "codeforces"
     TAKEUFORWARD = "takeuforward"
+    CODECHEF = "codechef"
+    ATCODER = "atcoder"
 
 
-#: Platforms a user can link an account to and sync submissions from.
-SYNCABLE_PLATFORMS = (Platform.CODEFORCES, Platform.LEETCODE)
+#: Platforms a user can link a profile to.
+#:
+#: Deliberately wider than `SYNCABLE_PLATFORMS`: CodeChef publishes no usable
+#: public API, so its profile can be connected and linked but never synced.
+#: Collapsing the two would either block CodeChef from being connected at all
+#: or imply a sync that cannot happen.
+CONNECTABLE_PLATFORMS = (
+    Platform.CODEFORCES,
+    Platform.LEETCODE,
+    Platform.CODECHEF,
+    Platform.ATCODER,
+)
+
+#: Platforms whose activity can actually be fetched and imported.
+SYNCABLE_PLATFORMS = (
+    Platform.CODEFORCES,
+    Platform.LEETCODE,
+    Platform.ATCODER,
+)
 
 
 class ContestPlatform(StrEnum):
@@ -40,6 +59,7 @@ class ContestPlatform(StrEnum):
     LEETCODE = "leetcode"
     CODEFORCES = "codeforces"
     CODECHEF = "codechef"
+    ATCODER = "atcoder"
 
 
 class Difficulty(StrEnum):
