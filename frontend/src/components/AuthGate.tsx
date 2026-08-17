@@ -10,30 +10,15 @@
  */
 
 import { useEffect, type ReactNode } from 'react';
-import { ClerkProvider, SignIn, useAuth } from '@clerk/react';
-import { Loader2, Zap } from 'lucide-react';
+import { ClerkProvider, useAuth } from '@clerk/react';
+import { Loader2 } from 'lucide-react';
 import { authMode, clerkPublishableKey, setTokenProvider } from '../lib/auth';
+import {
+  AuthUnavailableScreen,
+  CLERK_APPEARANCE,
+  SignInScreen,
+} from './SignInScreen';
 
-/** Dark theme for Clerk's own components, so sign-in still looks like CP-Forge. */
-const CLERK_APPEARANCE = {
-  variables: {
-    colorBackground: '#12141a',
-    colorInputBackground: '#1a1d26',
-    colorText: '#e6e8ef',
-    colorTextSecondary: '#8b93a7',
-    colorPrimary: '#f5b544',
-    colorInputText: '#e6e8ef',
-    borderRadius: '0.5rem',
-    fontFamily: 'inherit',
-  },
-  elements: {
-    card: 'bg-surface border border-line shadow-none',
-    headerTitle: 'text-ink',
-    headerSubtitle: 'text-ink-dim',
-    socialButtonsBlockButton: 'border-line text-ink',
-    footerActionLink: 'text-accent hover:text-accent',
-  },
-} as const;
 
 function Splash({ label }: { label: string }) {
   return (
@@ -76,30 +61,13 @@ function Session({ children }: { children: ReactNode }) {
   return <>{children}</>;
 }
 
-function SignInScreen() {
-  return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-6 px-4 py-10">
-      <div className="flex items-center gap-2.5">
-        <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-black">
-          <Zap size={18} />
-        </span>
-        <div>
-          <h1 className="text-lg font-semibold text-ink">CP-Forge</h1>
-          <p className="text-xs text-ink-dim">Competitive programming preparation</p>
-        </div>
-      </div>
-      <SignIn
-        appearance={CLERK_APPEARANCE}
-        routing="hash"
-        signUpUrl="#/sign-up"
-        fallbackRedirectUrl="/"
-      />
-    </div>
-  );
-}
-
 export function AuthGate({ children }: { children: ReactNode }) {
   if (authMode === 'local') return <>{children}</>;
+  // A production build with no key cannot sign anyone in. Render the reason
+  // rather than the app shell, which would only 401 on every request.
+  if (authMode === 'misconfigured' || !clerkPublishableKey) {
+    return <AuthUnavailableScreen />;
+  }
 
   return (
     <ClerkProvider

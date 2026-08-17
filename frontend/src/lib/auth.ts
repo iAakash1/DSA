@@ -12,14 +12,26 @@
  * never trusts one supplied by the client.
  */
 
-export type AuthMode = 'local' | 'clerk';
+export type AuthMode = 'local' | 'clerk' | 'misconfigured';
 
 const clerkKey = (import.meta.env.VITE_CLERK_PUBLISHABLE_KEY as string | undefined)?.trim();
 
 /** The browser-safe Clerk key. The secret key never reaches this bundle. */
 export const clerkPublishableKey = clerkKey || undefined;
 
-export const authMode: AuthMode = clerkKey ? 'clerk' : 'local';
+/**
+ * Local mode is a *development* affordance and must never be reached in a
+ * production build. Without this distinction a missing
+ * `VITE_CLERK_PUBLISHABLE_KEY` on the host silently degrades to "no auth
+ * provider": the shell renders, every request goes out unauthenticated, the
+ * backend 401s, and the user lands on a dead end with nothing to click.
+ * A production build with no key is a misconfiguration, and says so.
+ */
+export const authMode: AuthMode = clerkKey
+  ? 'clerk'
+  : import.meta.env.PROD
+    ? 'misconfigured'
+    : 'local';
 export const isAuthConfigured = authMode !== 'local';
 
 /**
