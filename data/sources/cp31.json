@@ -1,0 +1,5055 @@
+{
+  "_provenance": {
+    "source_type": "publicly reconstructed and independently verified",
+    "disclaimer": "NOT an official TLE Eliminators export. Reconstructed from public GitHub repositories of CP-31 solutions and verified against the public Codeforces problemset API.",
+    "official_structure_confirmed_from": "https://www.tle-eliminators.com/cp-sheet (signed-in page: 'Overall Progress 0/372', 12 rating buckets)",
+    "sources": [
+      {
+        "name": "virajchandra51/TLE_CP_31",
+        "url": "https://github.com/virajchandra51/TLE_CP_31",
+        "type": "derived_public_mirror",
+        "buckets": 12,
+        "problems": 372,
+        "ordering": "preserved"
+      },
+      {
+        "name": "Tejas-Santosh-Nalawade/CP-31-Sheet",
+        "url": "https://github.com/Tejas-Santosh-Nalawade/CP-31-Sheet",
+        "type": "derived_public_mirror",
+        "buckets": 12,
+        "problems": 372,
+        "ordering": "preserved"
+      }
+    ],
+    "cross_source_agreement": "371/372 (99.7%)",
+    "verification": {
+      "method": "public Codeforces problemset API (11356 problems indexed)",
+      "resolved": 372,
+      "unresolved": 0,
+      "duplicates": 0,
+      "ambiguous": 0,
+      "codeforces_rating_equals_bucket": "372/372 (100%)"
+    },
+    "confidence": "HIGH",
+    "generated_at": "2026-08-17T11:52:52.488359+00:00",
+    "source_hash": "ea5d3153de3e02ead612c37a445cd763efc05e5ca7cd9954fad5b0314190a33d"
+  },
+  "sheet": {
+    "slug": "cp31",
+    "name": "CP-31",
+    "kind": "cp31",
+    "description": "Rating-bucketed Codeforces ladder, 800-1900 (31 per bucket).",
+    "source_url": "https://www.tle-eliminators.com/cp-sheet"
+  },
+  "sections": [
+    {
+      "slug": "800",
+      "name": "800",
+      "kind": "rating_bucket",
+      "rating_bucket": 800,
+      "order": 0
+    },
+    {
+      "slug": "900",
+      "name": "900",
+      "kind": "rating_bucket",
+      "rating_bucket": 900,
+      "order": 1
+    },
+    {
+      "slug": "1000",
+      "name": "1000",
+      "kind": "rating_bucket",
+      "rating_bucket": 1000,
+      "order": 2
+    },
+    {
+      "slug": "1100",
+      "name": "1100",
+      "kind": "rating_bucket",
+      "rating_bucket": 1100,
+      "order": 3
+    },
+    {
+      "slug": "1200",
+      "name": "1200",
+      "kind": "rating_bucket",
+      "rating_bucket": 1200,
+      "order": 4
+    },
+    {
+      "slug": "1300",
+      "name": "1300",
+      "kind": "rating_bucket",
+      "rating_bucket": 1300,
+      "order": 5
+    },
+    {
+      "slug": "1400",
+      "name": "1400",
+      "kind": "rating_bucket",
+      "rating_bucket": 1400,
+      "order": 6
+    },
+    {
+      "slug": "1500",
+      "name": "1500",
+      "kind": "rating_bucket",
+      "rating_bucket": 1500,
+      "order": 7
+    },
+    {
+      "slug": "1600",
+      "name": "1600",
+      "kind": "rating_bucket",
+      "rating_bucket": 1600,
+      "order": 8
+    },
+    {
+      "slug": "1700",
+      "name": "1700",
+      "kind": "rating_bucket",
+      "rating_bucket": 1700,
+      "order": 9
+    },
+    {
+      "slug": "1800",
+      "name": "1800",
+      "kind": "rating_bucket",
+      "rating_bucket": 1800,
+      "order": 10
+    },
+    {
+      "slug": "1900",
+      "name": "1900",
+      "kind": "rating_bucket",
+      "rating_bucket": 1900,
+      "order": 11
+    }
+  ],
+  "problems": [
+    {
+      "platform": "codeforces",
+      "external_id": "1903A",
+      "title": "Halloumi Boxes",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "greedy",
+        "sortings"
+      ],
+      "section": "800",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1901A",
+      "title": "Line Trip",
+      "rating": 800,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "800",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1900A",
+      "title": "Cover in Water",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "strings"
+      ],
+      "section": "800",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1899A",
+      "title": "Game with Integers",
+      "rating": 800,
+      "tags": [
+        "games",
+        "math",
+        "number theory"
+      ],
+      "section": "800",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1896A",
+      "title": "Jagged Swaps",
+      "rating": 800,
+      "tags": [
+        "sortings"
+      ],
+      "section": "800",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1890A",
+      "title": "Doremy's Paint 3",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms"
+      ],
+      "section": "800",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1881A",
+      "title": "Don't Try to Count",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "strings"
+      ],
+      "section": "800",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1878A",
+      "title": "How Much Does Daytona Cost?",
+      "rating": 800,
+      "tags": [
+        "greedy"
+      ],
+      "section": "800",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1877A",
+      "title": "Goals of Victory",
+      "rating": 800,
+      "tags": [
+        "math"
+      ],
+      "section": "800",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1873C",
+      "title": "Target Practice",
+      "rating": 800,
+      "tags": [
+        "implementation",
+        "math"
+      ],
+      "section": "800",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1866A",
+      "title": "Ambitious Kid",
+      "rating": 800,
+      "tags": [
+        "math"
+      ],
+      "section": "800",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2164A",
+      "title": "Sequence Game",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "sortings"
+      ],
+      "section": "800",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1859A",
+      "title": "United We Stand",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms",
+        "math",
+        "number theory"
+      ],
+      "section": "800",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1858A",
+      "title": "Buttons",
+      "rating": 800,
+      "tags": [
+        "games",
+        "greedy",
+        "math"
+      ],
+      "section": "800",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2191A",
+      "title": "Array Coloring",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms"
+      ],
+      "section": "800",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1853A",
+      "title": "Desorting",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "greedy",
+        "math"
+      ],
+      "section": "800",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1845A",
+      "title": "Forbidden Integer",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms",
+        "implementation",
+        "math",
+        "number theory"
+      ],
+      "section": "800",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1837A",
+      "title": "Grasshopper on a Line",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms",
+        "math"
+      ],
+      "section": "800",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1834A",
+      "title": "Unit Array",
+      "rating": 800,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "800",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1831A",
+      "title": "Twin Permutations",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms"
+      ],
+      "section": "800",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1829B",
+      "title": "Blank Space",
+      "rating": 800,
+      "tags": [
+        "implementation"
+      ],
+      "section": "800",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1814A",
+      "title": "Coins",
+      "rating": 800,
+      "tags": [
+        "implementation",
+        "math"
+      ],
+      "section": "800",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1806A",
+      "title": "Walking Master",
+      "rating": 800,
+      "tags": [
+        "geometry",
+        "greedy",
+        "math"
+      ],
+      "section": "800",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1805A",
+      "title": "We Need the Zero",
+      "rating": 800,
+      "tags": [
+        "bitmasks",
+        "brute force"
+      ],
+      "section": "800",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1791C",
+      "title": "Prepend and Append",
+      "rating": 800,
+      "tags": [
+        "implementation",
+        "two pointers"
+      ],
+      "section": "800",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1789A",
+      "title": "Serval and Mocha's Array",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "math",
+        "number theory"
+      ],
+      "section": "800",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1788A",
+      "title": "One and Two",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math"
+      ],
+      "section": "800",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1783A",
+      "title": "Make it Beautiful",
+      "rating": 800,
+      "tags": [
+        "constructive algorithms",
+        "math",
+        "sortings"
+      ],
+      "section": "800",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1777A",
+      "title": "Everybody Likes Good Arrays!",
+      "rating": 800,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "800",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1766A",
+      "title": "Extremely Round",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "implementation"
+      ],
+      "section": "800",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1761A",
+      "title": "Two Permutations",
+      "rating": 800,
+      "tags": [
+        "brute force",
+        "constructive algorithms"
+      ],
+      "section": "800",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1904A",
+      "title": "Forked!",
+      "rating": 900,
+      "tags": [
+        "brute force",
+        "implementation"
+      ],
+      "section": "900",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1883B",
+      "title": "Chemistry",
+      "rating": 900,
+      "tags": [
+        "strings"
+      ],
+      "section": "900",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1878C",
+      "title": "Vasilije in Cacak",
+      "rating": 900,
+      "tags": [
+        "math"
+      ],
+      "section": "900",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1875A",
+      "title": "Jellyfish and Undertale",
+      "rating": 900,
+      "tags": [
+        "brute force",
+        "greedy"
+      ],
+      "section": "900",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1869A",
+      "title": "Make It Zero",
+      "rating": 900,
+      "tags": [
+        "constructive algorithms"
+      ],
+      "section": "900",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1855B",
+      "title": "Longest Divisors Interval",
+      "rating": 900,
+      "tags": [
+        "brute force",
+        "combinatorics",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "900",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1850D",
+      "title": "Balanced Round",
+      "rating": 900,
+      "tags": [
+        "brute force",
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "section": "900",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1837B",
+      "title": "Comparison String",
+      "rating": 900,
+      "tags": [
+        "greedy"
+      ],
+      "section": "900",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1828B",
+      "title": "Permutation Swap",
+      "rating": 900,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "900",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1807D",
+      "title": "Odd Queries",
+      "rating": 900,
+      "tags": [
+        "data structures",
+        "implementation"
+      ],
+      "section": "900",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1794B",
+      "title": "Not Dividing",
+      "rating": 900,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "section": "900",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1726A",
+      "title": "Mainak and Array",
+      "rating": 900,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "900",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1696B",
+      "title": "NIT Destroys the Universe",
+      "rating": 900,
+      "tags": [
+        "greedy"
+      ],
+      "section": "900",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1679A",
+      "title": "AvtoBus",
+      "rating": 900,
+      "tags": [
+        "brute force",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "900",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1675B",
+      "title": "Make It Increasing",
+      "rating": 900,
+      "tags": [
+        "greedy",
+        "implementation"
+      ],
+      "section": "900",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1666D",
+      "title": "Deletive Editing",
+      "rating": 900,
+      "tags": [
+        "greedy"
+      ],
+      "section": "900",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1665B",
+      "title": "Array Cloning Technique",
+      "rating": 900,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "sortings"
+      ],
+      "section": "900",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1624B",
+      "title": "Make AP",
+      "rating": 900,
+      "tags": [
+        "implementation",
+        "math"
+      ],
+      "section": "900",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1607B",
+      "title": "Odd Grasshopper",
+      "rating": 900,
+      "tags": [
+        "math"
+      ],
+      "section": "900",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1606A",
+      "title": "AB Balance",
+      "rating": 900,
+      "tags": [
+        "strings"
+      ],
+      "section": "900",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1593B",
+      "title": "Make it Divisible by 25",
+      "rating": 900,
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "section": "900",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1582B",
+      "title": "Luntik and Subsequences",
+      "rating": 900,
+      "tags": [
+        "combinatorics",
+        "math"
+      ],
+      "section": "900",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1559A",
+      "title": "Mocha and Math",
+      "rating": 900,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms",
+        "math"
+      ],
+      "section": "900",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1543A",
+      "title": "Exciting Bets",
+      "rating": 900,
+      "tags": [
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "900",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1537B",
+      "title": "Bad Boy",
+      "rating": 900,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "section": "900",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1475A",
+      "title": "Odd Divisor",
+      "rating": 900,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "900",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1471A",
+      "title": "Strange Partition",
+      "rating": 900,
+      "tags": [
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "900",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1440B",
+      "title": "Sum of Medians",
+      "rating": 900,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "900",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1380A",
+      "title": "Three Indices",
+      "rating": 900,
+      "tags": [
+        "brute force",
+        "data structures"
+      ],
+      "section": "900",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1373B",
+      "title": "01 Game",
+      "rating": 900,
+      "tags": [
+        "games"
+      ],
+      "section": "900",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1374B",
+      "title": "Multiply by 2, divide by 6",
+      "rating": 900,
+      "tags": [
+        "math"
+      ],
+      "section": "900",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1913B",
+      "title": "Swap and Delete",
+      "rating": 1000,
+      "tags": [
+        "strings"
+      ],
+      "section": "1000",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1883C",
+      "title": "Raspberries",
+      "rating": 1000,
+      "tags": [
+        "dp",
+        "math"
+      ],
+      "section": "1000",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1876A",
+      "title": "Helmets in Night Light",
+      "rating": 1000,
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "section": "1000",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1859B",
+      "title": "Olya and Game with Arrays",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "section": "1000",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1849B",
+      "title": "Monsters",
+      "rating": 1000,
+      "tags": [
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "section": "1000",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1840C",
+      "title": "Ski Resort",
+      "rating": 1000,
+      "tags": [
+        "combinatorics",
+        "math",
+        "two pointers"
+      ],
+      "section": "1000",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1831B",
+      "title": "Array merging",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "greedy"
+      ],
+      "section": "1000",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1791D",
+      "title": "Distinct Split",
+      "rating": 1000,
+      "tags": [
+        "brute force",
+        "greedy",
+        "strings"
+      ],
+      "section": "1000",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1765M",
+      "title": "Minimum LCM",
+      "rating": 1000,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "1000",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1744C",
+      "title": "Traffic Light",
+      "rating": 1000,
+      "tags": [
+        "binary search",
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1000",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1725B",
+      "title": "Basketball Together",
+      "rating": 1000,
+      "tags": [
+        "binary search",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1000",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1715B",
+      "title": "Beautiful Array",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "section": "1000",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1704B",
+      "title": "Luke is a Foodie",
+      "rating": 1000,
+      "tags": [
+        "brute force",
+        "greedy",
+        "implementation"
+      ],
+      "section": "1000",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1691B",
+      "title": "Shoe Shuffling",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1000",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1690D",
+      "title": "Black and White Stripe",
+      "rating": 1000,
+      "tags": [
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1000",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1659A",
+      "title": "Red Versus Blue",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "section": "1000",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1632B",
+      "title": "Roof Construction",
+      "rating": 1000,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms"
+      ],
+      "section": "1000",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1620B",
+      "title": "Triangles on a Rectangle",
+      "rating": 1000,
+      "tags": [
+        "geometry",
+        "greedy",
+        "math"
+      ],
+      "section": "1000",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1614B",
+      "title": "Divan and a New Project ",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "sortings"
+      ],
+      "section": "1000",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1567B",
+      "title": "MEXor Mixup",
+      "rating": 1000,
+      "tags": [
+        "bitmasks",
+        "greedy"
+      ],
+      "section": "1000",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1506C",
+      "title": "Double-ended Strings",
+      "rating": 1000,
+      "tags": [
+        "brute force",
+        "implementation",
+        "strings"
+      ],
+      "section": "1000",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1485A",
+      "title": "Add and Divide",
+      "rating": 1000,
+      "tags": [
+        "brute force",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "1000",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1474B",
+      "title": "Different Divisors",
+      "rating": 1000,
+      "tags": [
+        "binary search",
+        "constructive algorithms",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "1000",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1447B",
+      "title": "Numbers Box",
+      "rating": 1000,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1000",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1438B",
+      "title": "Valerii Against Everyone",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "data structures",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1000",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1418A",
+      "title": "Buying Torches",
+      "rating": 1000,
+      "tags": [
+        "math"
+      ],
+      "section": "1000",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1411B",
+      "title": "Fair Numbers",
+      "rating": 1000,
+      "tags": [
+        "brute force",
+        "number theory"
+      ],
+      "section": "1000",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1374C",
+      "title": "Move Brackets",
+      "rating": 1000,
+      "tags": [
+        "greedy",
+        "strings"
+      ],
+      "section": "1000",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1362A",
+      "title": "Johnny and Ancient Computer",
+      "rating": 1000,
+      "tags": [
+        "implementation"
+      ],
+      "section": "1000",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1312B",
+      "title": "Bogosort",
+      "rating": 1000,
+      "tags": [
+        "constructive algorithms",
+        "sortings"
+      ],
+      "section": "1000",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1155A",
+      "title": "Reverse a Substring",
+      "rating": 1000,
+      "tags": [
+        "implementation",
+        "sortings",
+        "strings"
+      ],
+      "section": "1000",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1917B",
+      "title": "Erase First or Second Letter",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "combinatorics",
+        "data structures",
+        "dp",
+        "strings"
+      ],
+      "section": "1100",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1914C",
+      "title": "Quests",
+      "rating": 1100,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1100",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1904B",
+      "title": "Collecting Game",
+      "rating": 1100,
+      "tags": [
+        "binary search",
+        "dp",
+        "greedy",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1100",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1899C",
+      "title": "Yarik and Array",
+      "rating": 1100,
+      "tags": [
+        "dp",
+        "greedy",
+        "two pointers"
+      ],
+      "section": "1100",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1899B",
+      "title": "250 Thousand Tons of TNT",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "implementation",
+        "number theory"
+      ],
+      "section": "1100",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1891B",
+      "title": "Deja Vu",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "math",
+        "sortings"
+      ],
+      "section": "1100",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1873E",
+      "title": "Building an Aquarium",
+      "rating": 1100,
+      "tags": [
+        "binary search",
+        "sortings"
+      ],
+      "section": "1100",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1869B",
+      "title": "2D Traveling",
+      "rating": 1100,
+      "tags": [
+        "geometry",
+        "math",
+        "shortest paths",
+        "sortings"
+      ],
+      "section": "1100",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1850E",
+      "title": "Cardboard for Pictures",
+      "rating": 1100,
+      "tags": [
+        "binary search",
+        "geometry",
+        "implementation",
+        "math"
+      ],
+      "section": "1100",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1842B",
+      "title": "Tenzing and Books",
+      "rating": 1100,
+      "tags": [
+        "bitmasks",
+        "greedy",
+        "math"
+      ],
+      "section": "1100",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1946B",
+      "title": "Maximum Sum",
+      "rating": 1100,
+      "tags": [
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "section": "1100",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1827A",
+      "title": "Counting Orders",
+      "rating": 1100,
+      "tags": [
+        "combinatorics",
+        "math",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1100",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1826B",
+      "title": "Lunatic Never Content",
+      "rating": 1100,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "1100",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1821B",
+      "title": "Sort the Subarray",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "greedy"
+      ],
+      "section": "1100",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1820B",
+      "title": "JoJo's Incredible Adventures",
+      "rating": 1100,
+      "tags": [
+        "math",
+        "strings",
+        "two pointers"
+      ],
+      "section": "1100",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1807G2",
+      "title": "Subsequence Addition (Hard Version)",
+      "rating": 1100,
+      "tags": [
+        "bitmasks",
+        "dp",
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "section": "1100",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1797B",
+      "title": "Li Hua and Pattern",
+      "rating": 1100,
+      "tags": [
+        "constructive algorithms",
+        "greedy"
+      ],
+      "section": "1100",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1791G1",
+      "title": "Teleporters (Easy Version)",
+      "rating": 1100,
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "section": "1100",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1791E",
+      "title": "Negatives and Positives",
+      "rating": 1100,
+      "tags": [
+        "dp",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1100",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1780B",
+      "title": "GCD Partition",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "1100",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1742D",
+      "title": "Coprime",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "greedy",
+        "number theory"
+      ],
+      "section": "1100",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1731B",
+      "title": "Kill Demodogs",
+      "rating": 1100,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1100",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1708B",
+      "title": "Difference of GCDs",
+      "rating": 1100,
+      "tags": [
+        "constructive algorithms",
+        "math"
+      ],
+      "section": "1100",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1682B",
+      "title": "AND Sorting",
+      "rating": 1100,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms",
+        "sortings"
+      ],
+      "section": "1100",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1673B",
+      "title": "A Perfectly Balanced String?",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "greedy",
+        "strings"
+      ],
+      "section": "1100",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1669F",
+      "title": "Eating Candies",
+      "rating": 1100,
+      "tags": [
+        "binary search",
+        "data structures",
+        "greedy",
+        "two pointers"
+      ],
+      "section": "1100",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1656B",
+      "title": "Subtract Operation",
+      "rating": 1100,
+      "tags": [
+        "data structures",
+        "greedy",
+        "math",
+        "two pointers"
+      ],
+      "section": "1100",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1631B",
+      "title": "Fun with Even Subarrays",
+      "rating": 1100,
+      "tags": [
+        "dp",
+        "greedy"
+      ],
+      "section": "1100",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1618C",
+      "title": "Paint the Array",
+      "rating": 1100,
+      "tags": [
+        "math"
+      ],
+      "section": "1100",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1610B",
+      "title": "Kalindrome Array",
+      "rating": 1100,
+      "tags": [
+        "greedy",
+        "two pointers"
+      ],
+      "section": "1100",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1511C",
+      "title": "Yet Another Card Deck",
+      "rating": 1100,
+      "tags": [
+        "brute force",
+        "data structures",
+        "implementation",
+        "trees"
+      ],
+      "section": "1100",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1914D",
+      "title": "Three Activities",
+      "rating": 1200,
+      "tags": [
+        "brute force",
+        "dp",
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "section": "1200",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1909B",
+      "title": "Make Almost Equal With Mod",
+      "rating": 1200,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms",
+        "math",
+        "number theory"
+      ],
+      "section": "1200",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1872D",
+      "title": "Plus Minus Permutation",
+      "rating": 1200,
+      "tags": [
+        "math"
+      ],
+      "section": "1200",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1857C",
+      "title": "Assembly via Minimums",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "section": "1200",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1848B",
+      "title": "Vika and the Bridge",
+      "rating": 1200,
+      "tags": [
+        "binary search",
+        "data structures",
+        "greedy",
+        "implementation",
+        "math",
+        "sortings"
+      ],
+      "section": "1200",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1832C",
+      "title": "Contrast Value",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "implementation"
+      ],
+      "section": "1200",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1808B",
+      "title": "Playing in a Casino",
+      "rating": 1200,
+      "tags": [
+        "math",
+        "sortings"
+      ],
+      "section": "1200",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1793C",
+      "title": "Dora and Search",
+      "rating": 1200,
+      "tags": [
+        "constructive algorithms",
+        "data structures",
+        "two pointers"
+      ],
+      "section": "1200",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1790D",
+      "title": "Matryoshkas",
+      "rating": 1200,
+      "tags": [
+        "data structures",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1200",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1742E",
+      "title": "Scuza",
+      "rating": 1200,
+      "tags": [
+        "binary search",
+        "greedy",
+        "math"
+      ],
+      "section": "1200",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1734C",
+      "title": "Removing Smallest Multiples",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1200",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1729D",
+      "title": "Friends and the Restaurant",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1200",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1704C",
+      "title": "Virus",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "section": "1200",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1703E",
+      "title": "Mirror Grid",
+      "rating": 1200,
+      "tags": [
+        "implementation"
+      ],
+      "section": "1200",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1692E",
+      "title": "Binary Deque",
+      "rating": 1200,
+      "tags": [
+        "binary search",
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1200",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1679B",
+      "title": "Stone Age Problem",
+      "rating": 1200,
+      "tags": [
+        "data structures",
+        "implementation"
+      ],
+      "section": "1200",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1671C",
+      "title": "Dolce Vita",
+      "rating": 1200,
+      "tags": [
+        "binary search",
+        "brute force",
+        "greedy",
+        "math"
+      ],
+      "section": "1200",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1635C",
+      "title": "Differential Sorting",
+      "rating": 1200,
+      "tags": [
+        "constructive algorithms",
+        "greedy"
+      ],
+      "section": "1200",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1594C",
+      "title": "Make Them Equal",
+      "rating": 1200,
+      "tags": [
+        "brute force",
+        "greedy",
+        "math",
+        "strings"
+      ],
+      "section": "1200",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1582C",
+      "title": "Grandma Capa Knits a Scarf",
+      "rating": 1200,
+      "tags": [
+        "brute force",
+        "data structures",
+        "greedy",
+        "strings",
+        "two pointers"
+      ],
+      "section": "1200",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1541B",
+      "title": "Pleasant Pairs",
+      "rating": 1200,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math",
+        "number theory"
+      ],
+      "section": "1200",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1539C",
+      "title": "Stable Groups",
+      "rating": 1200,
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "section": "1200",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1536B",
+      "title": "Prinzessin der Verurteilung",
+      "rating": 1200,
+      "tags": [
+        "brute force",
+        "constructive algorithms",
+        "strings"
+      ],
+      "section": "1200",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1527B1",
+      "title": "Palindrome Game (easy version)",
+      "rating": 1200,
+      "tags": [
+        "constructive algorithms",
+        "games"
+      ],
+      "section": "1200",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1520D",
+      "title": "Same Differences",
+      "rating": 1200,
+      "tags": [
+        "data structures",
+        "hashing",
+        "math"
+      ],
+      "section": "1200",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1514B",
+      "title": "AND 0, Sum Big",
+      "rating": 1200,
+      "tags": [
+        "bitmasks",
+        "combinatorics",
+        "math"
+      ],
+      "section": "1200",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1504B",
+      "title": "Flip the Bits",
+      "rating": 1200,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "section": "1200",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1497B",
+      "title": "M-arrays",
+      "rating": 1200,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "section": "1200",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1487B",
+      "title": "Cat Cycle",
+      "rating": 1200,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "1200",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1433D",
+      "title": "Districts Connection",
+      "rating": 1200,
+      "tags": [
+        "constructive algorithms",
+        "dfs and similar"
+      ],
+      "section": "1200",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1420B",
+      "title": "Rock and Lever",
+      "rating": 1200,
+      "tags": [
+        "bitmasks",
+        "math"
+      ],
+      "section": "1200",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1931D",
+      "title": "Divisible Pairs",
+      "rating": 1300,
+      "tags": [
+        "combinatorics",
+        "math",
+        "number theory"
+      ],
+      "section": "1300",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1927D",
+      "title": "Find the Different Ones!",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "brute force",
+        "data structures",
+        "dp",
+        "dsu",
+        "greedy",
+        "two pointers"
+      ],
+      "section": "1300",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1915E",
+      "title": "Romantic Glasses",
+      "rating": 1300,
+      "tags": [
+        "data structures",
+        "greedy",
+        "math"
+      ],
+      "section": "1300",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1881D",
+      "title": "Divide and Equalize",
+      "rating": 1300,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "1300",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1879C",
+      "title": "Make it Alternating",
+      "rating": 1300,
+      "tags": [
+        "combinatorics",
+        "dp",
+        "greedy"
+      ],
+      "section": "1300",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1857D",
+      "title": "Strong Vertices",
+      "rating": 1300,
+      "tags": [
+        "math",
+        "sortings",
+        "trees"
+      ],
+      "section": "1300",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1846E1",
+      "title": "Rudolf and Snowflakes (simple version)",
+      "rating": 1300,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math"
+      ],
+      "section": "1300",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1794C",
+      "title": "Scoring Subsequences",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "greedy",
+        "math",
+        "two pointers"
+      ],
+      "section": "1300",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1775B",
+      "title": "Gardener and the Array",
+      "rating": 1300,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms"
+      ],
+      "section": "1300",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1703F",
+      "title": "Yet Another Problem About Pairs Satisfying an Inequality",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "data structures",
+        "dp",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1300",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1676G",
+      "title": "White-Black Balanced Subtrees",
+      "rating": 1300,
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "graphs",
+        "trees"
+      ],
+      "section": "1300",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1669H",
+      "title": "Maximal AND",
+      "rating": 1300,
+      "tags": [
+        "bitmasks",
+        "greedy",
+        "math"
+      ],
+      "section": "1300",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1612C",
+      "title": "Chat Ban",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "math"
+      ],
+      "section": "1300",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1601A",
+      "title": "Array Elimination",
+      "rating": 1300,
+      "tags": [
+        "bitmasks",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "1300",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1561C",
+      "title": "Deep Down Below",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1300",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1498B",
+      "title": "Box Fitting",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "bitmasks",
+        "data structures",
+        "greedy"
+      ],
+      "section": "1300",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1470A",
+      "title": "Strange Birthday Party",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "dp",
+        "greedy",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1300",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1459B",
+      "title": "Move and Turn",
+      "rating": 1300,
+      "tags": [
+        "dp",
+        "math"
+      ],
+      "section": "1300",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1372B",
+      "title": "Omkar and Last Class of Math",
+      "rating": 1300,
+      "tags": [
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "1300",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1366B",
+      "title": "Shuffle",
+      "rating": 1300,
+      "tags": [
+        "math",
+        "two pointers"
+      ],
+      "section": "1300",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1364B",
+      "title": "Most socially-distanced subsequence",
+      "rating": 1300,
+      "tags": [
+        "greedy",
+        "two pointers"
+      ],
+      "section": "1300",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1360D",
+      "title": "Buying Shovels",
+      "rating": 1300,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "1300",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1294C",
+      "title": "Product of Three Numbers",
+      "rating": 1300,
+      "tags": [
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "1300",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1285B",
+      "title": "Just Eat It!",
+      "rating": 1300,
+      "tags": [
+        "dp",
+        "greedy",
+        "implementation"
+      ],
+      "section": "1300",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1237B",
+      "title": "Balanced Tunnel",
+      "rating": 1300,
+      "tags": [
+        "data structures",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1300",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1178B",
+      "title": "WOW Factor",
+      "rating": 1300,
+      "tags": [
+        "dp",
+        "strings"
+      ],
+      "section": "1300",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1119B",
+      "title": "Alyona and a Narrow Fridge",
+      "rating": 1300,
+      "tags": [
+        "binary search",
+        "flows",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1300",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1077C",
+      "title": "Good Array",
+      "rating": 1300,
+      "tags": [],
+      "section": "1300",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "862B",
+      "title": "Mahmoud and Ehab and the bipartiteness",
+      "rating": 1300,
+      "tags": [
+        "dfs and similar",
+        "graphs",
+        "trees"
+      ],
+      "section": "1300",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "808B",
+      "title": "Average Sleep Time",
+      "rating": 1300,
+      "tags": [
+        "data structures",
+        "implementation",
+        "math"
+      ],
+      "section": "1300",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "665C",
+      "title": "Simple Strings",
+      "rating": 1300,
+      "tags": [
+        "dp",
+        "greedy",
+        "strings"
+      ],
+      "section": "1300",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1931E",
+      "title": "Anna and the Valentine's Day Gift",
+      "rating": 1400,
+      "tags": [
+        "games",
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "section": "1400",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1919C",
+      "title": "Grouping Increases",
+      "rating": 1400,
+      "tags": [
+        "data structures",
+        "dp",
+        "greedy"
+      ],
+      "section": "1400",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1907D",
+      "title": "Jumping Through Segments",
+      "rating": 1400,
+      "tags": [
+        "binary search",
+        "constructive algorithms"
+      ],
+      "section": "1400",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1904C",
+      "title": "Array Game",
+      "rating": 1400,
+      "tags": [
+        "binary search",
+        "brute force",
+        "data structures",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1400",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1883G1",
+      "title": "Dances (Easy version)",
+      "rating": 1400,
+      "tags": [
+        "binary search",
+        "greedy",
+        "two pointers"
+      ],
+      "section": "1400",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1878E",
+      "title": "Iva & Pav",
+      "rating": 1400,
+      "tags": [
+        "binary search",
+        "bitmasks",
+        "data structures",
+        "greedy"
+      ],
+      "section": "1400",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1837D",
+      "title": "Bracket Coloring",
+      "rating": 1400,
+      "tags": [
+        "constructive algorithms",
+        "greedy"
+      ],
+      "section": "1400",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1830A",
+      "title": "Copil Copac Draws Trees",
+      "rating": 1400,
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "graphs",
+        "trees"
+      ],
+      "section": "1400",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1771B",
+      "title": "Hossam and Friends",
+      "rating": 1400,
+      "tags": [
+        "binary search",
+        "constructive algorithms",
+        "dp",
+        "two pointers"
+      ],
+      "section": "1400",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1759D",
+      "title": "Make It Round",
+      "rating": 1400,
+      "tags": [
+        "brute force",
+        "number theory"
+      ],
+      "section": "1400",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1714E",
+      "title": "Add Modulo 10",
+      "rating": 1400,
+      "tags": [
+        "brute force",
+        "math",
+        "number theory"
+      ],
+      "section": "1400",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1701C",
+      "title": "Schedule Management",
+      "rating": 1400,
+      "tags": [
+        "binary search",
+        "greedy",
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1400",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1692G",
+      "title": "2^Sort",
+      "rating": 1400,
+      "tags": [
+        "data structures",
+        "dp",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1400",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1648A",
+      "title": "Weird Sum",
+      "rating": 1400,
+      "tags": [
+        "combinatorics",
+        "data structures",
+        "geometry",
+        "math",
+        "matrices",
+        "sortings"
+      ],
+      "section": "1400",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1634B",
+      "title": "Fortune Telling",
+      "rating": 1400,
+      "tags": [
+        "bitmasks",
+        "math"
+      ],
+      "section": "1400",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1520E",
+      "title": "Arranging The Sheep",
+      "rating": 1400,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1400",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1519C",
+      "title": "Berland Regional",
+      "rating": 1400,
+      "tags": [
+        "brute force",
+        "data structures",
+        "greedy",
+        "number theory",
+        "sortings"
+      ],
+      "section": "1400",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1513B",
+      "title": "AND Sequences",
+      "rating": 1400,
+      "tags": [
+        "bitmasks",
+        "combinatorics",
+        "constructive algorithms",
+        "math"
+      ],
+      "section": "1400",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1475C",
+      "title": "Ball in Berland",
+      "rating": 1400,
+      "tags": [
+        "combinatorics",
+        "graphs",
+        "math"
+      ],
+      "section": "1400",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1374D",
+      "title": "Zero Remainder Array",
+      "rating": 1400,
+      "tags": [
+        "math",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1400",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1362C",
+      "title": "Johnny and Another Rating Drop",
+      "rating": 1400,
+      "tags": [
+        "bitmasks",
+        "greedy",
+        "math"
+      ],
+      "section": "1400",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1350B",
+      "title": "Orac and Models",
+      "rating": 1400,
+      "tags": [
+        "dp",
+        "math",
+        "number theory"
+      ],
+      "section": "1400",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1320A",
+      "title": "Journey Planning",
+      "rating": 1400,
+      "tags": [
+        "data structures",
+        "dp",
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "section": "1400",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1215B",
+      "title": "The Number of Products",
+      "rating": 1400,
+      "tags": [
+        "combinatorics",
+        "dp",
+        "implementation"
+      ],
+      "section": "1400",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1195C",
+      "title": "Basketball Exercise",
+      "rating": 1400,
+      "tags": [
+        "dp"
+      ],
+      "section": "1400",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1183D",
+      "title": "Candy Box (easy version)",
+      "rating": 1400,
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "section": "1400",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1167C",
+      "title": "News Distribution",
+      "rating": 1400,
+      "tags": [
+        "dfs and similar",
+        "dsu",
+        "graphs"
+      ],
+      "section": "1400",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1167B",
+      "title": "Lost Numbers",
+      "rating": 1400,
+      "tags": [
+        "brute force",
+        "divide and conquer",
+        "interactive",
+        "math"
+      ],
+      "section": "1400",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1143C",
+      "title": "Queen",
+      "rating": 1400,
+      "tags": [
+        "dfs and similar",
+        "trees"
+      ],
+      "section": "1400",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1110B",
+      "title": "Tape",
+      "rating": 1400,
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "section": "1400",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "414B",
+      "title": "Mashmokh and ACM",
+      "rating": 1400,
+      "tags": [
+        "combinatorics",
+        "dp",
+        "number theory"
+      ],
+      "section": "1400",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1915F",
+      "title": "Greetings",
+      "rating": 1500,
+      "tags": [
+        "data structures",
+        "divide and conquer",
+        "sortings"
+      ],
+      "section": "1500",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1891C",
+      "title": "Smilo and Monsters",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "constructive algorithms",
+        "greedy",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1500",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1881E",
+      "title": "Block Sequence",
+      "rating": 1500,
+      "tags": [
+        "dp"
+      ],
+      "section": "1500",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1872E",
+      "title": "Data Structures Fan",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "bitmasks",
+        "data structures",
+        "dp"
+      ],
+      "section": "1500",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1795C",
+      "title": "Tea Tasting",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "data structures",
+        "implementation"
+      ],
+      "section": "1500",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1776L",
+      "title": "Controllers",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "math"
+      ],
+      "section": "1500",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1673C",
+      "title": "Palindrome Basis",
+      "rating": 1500,
+      "tags": [
+        "brute force",
+        "dp",
+        "math",
+        "number theory"
+      ],
+      "section": "1500",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1659C",
+      "title": "Line Empire",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "brute force",
+        "dp",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "section": "1500",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1646C",
+      "title": "Factorials and Powers of Two",
+      "rating": 1500,
+      "tags": [
+        "bitmasks",
+        "brute force",
+        "constructive algorithms",
+        "dp",
+        "math"
+      ],
+      "section": "1500",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1516B",
+      "title": "AGAGA XOOORRR",
+      "rating": 1500,
+      "tags": [
+        "bitmasks",
+        "brute force",
+        "dp",
+        "greedy"
+      ],
+      "section": "1500",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1486B",
+      "title": "Eastern Exhibition",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "geometry",
+        "shortest paths",
+        "sortings"
+      ],
+      "section": "1500",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1466D",
+      "title": "13th Labour of Heracles",
+      "rating": 1500,
+      "tags": [
+        "data structures",
+        "greedy",
+        "sortings",
+        "trees"
+      ],
+      "section": "1500",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1418C",
+      "title": "Mortal Kombat Tower",
+      "rating": 1500,
+      "tags": [
+        "dp",
+        "graphs",
+        "greedy",
+        "shortest paths"
+      ],
+      "section": "1500",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1416A",
+      "title": "k-Amazing Numbers",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "data structures",
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1500",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1404A",
+      "title": "Balanced Bitstring",
+      "rating": 1500,
+      "tags": [
+        "implementation",
+        "strings"
+      ],
+      "section": "1500",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1338A",
+      "title": "Powered Addition",
+      "rating": 1500,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1500",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1332C",
+      "title": "K-Complete Word",
+      "rating": 1500,
+      "tags": [
+        "dfs and similar",
+        "dsu",
+        "greedy",
+        "implementation",
+        "strings"
+      ],
+      "section": "1500",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1325C",
+      "title": "Ehab and Path-etic MEXs",
+      "rating": 1500,
+      "tags": [
+        "constructive algorithms",
+        "dfs and similar",
+        "greedy",
+        "trees"
+      ],
+      "section": "1500",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1323B",
+      "title": "Count Subrectangles",
+      "rating": 1500,
+      "tags": [
+        "binary search",
+        "greedy",
+        "implementation"
+      ],
+      "section": "1500",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1201B",
+      "title": "Zero Array",
+      "rating": 1500,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1500",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1139C",
+      "title": "Edgy Trees",
+      "rating": 1500,
+      "tags": [
+        "dfs and similar",
+        "dsu",
+        "graphs",
+        "math",
+        "trees"
+      ],
+      "section": "1500",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1133D",
+      "title": "Zero Quantity Maximization",
+      "rating": 1500,
+      "tags": [
+        "hashing",
+        "math",
+        "number theory"
+      ],
+      "section": "1500",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1106D",
+      "title": "Lunar New Year and a Wander",
+      "rating": 1500,
+      "tags": [
+        "data structures",
+        "dfs and similar",
+        "graphs",
+        "greedy",
+        "shortest paths"
+      ],
+      "section": "1500",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1101C",
+      "title": "Division and Union",
+      "rating": 1500,
+      "tags": [
+        "sortings"
+      ],
+      "section": "1500",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1084C",
+      "title": "The Fair Nut and String",
+      "rating": 1500,
+      "tags": [
+        "combinatorics",
+        "dp",
+        "implementation"
+      ],
+      "section": "1500",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "982C",
+      "title": "Cut 'em all!",
+      "rating": 1500,
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "graphs",
+        "greedy",
+        "trees"
+      ],
+      "section": "1500",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "976C",
+      "title": "Nested Segments",
+      "rating": 1500,
+      "tags": [
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "section": "1500",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "960B",
+      "title": "Minimize the error",
+      "rating": 1500,
+      "tags": [
+        "data structures",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1500",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "891A",
+      "title": "Pride",
+      "rating": 1500,
+      "tags": [
+        "brute force",
+        "dp",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "section": "1500",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "845C",
+      "title": "Two TVs",
+      "rating": 1500,
+      "tags": [
+        "data structures",
+        "greedy",
+        "sortings"
+      ],
+      "section": "1500",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "276C",
+      "title": "Little Girl and Maximum Sum",
+      "rating": 1500,
+      "tags": [
+        "data structures",
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "section": "1500",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1920C",
+      "title": "Partitioning the Array",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "math",
+        "number theory"
+      ],
+      "section": "1600",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1907E",
+      "title": "Good Triples",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "combinatorics",
+        "number theory"
+      ],
+      "section": "1600",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1886C",
+      "title": "Decreasing String",
+      "rating": 1600,
+      "tags": [
+        "implementation",
+        "strings"
+      ],
+      "section": "1600",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1856C",
+      "title": "To Become Max",
+      "rating": 1600,
+      "tags": [
+        "binary search",
+        "brute force",
+        "data structures",
+        "dp"
+      ],
+      "section": "1600",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1843E",
+      "title": "Tracking Segments",
+      "rating": 1600,
+      "tags": [
+        "binary search",
+        "brute force",
+        "data structures",
+        "two pointers"
+      ],
+      "section": "1600",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1833E",
+      "title": "Round Dance",
+      "rating": 1600,
+      "tags": [
+        "dfs and similar",
+        "dsu",
+        "graphs",
+        "shortest paths"
+      ],
+      "section": "1600",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1829G",
+      "title": "Hits Different",
+      "rating": 1600,
+      "tags": [
+        "data structures",
+        "dp",
+        "implementation",
+        "math"
+      ],
+      "section": "1600",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1798D",
+      "title": "Shocking Arrangement",
+      "rating": 1600,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "section": "1600",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1795D",
+      "title": "Triangle Coloring",
+      "rating": 1600,
+      "tags": [
+        "combinatorics",
+        "math"
+      ],
+      "section": "1600",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1781C",
+      "title": "Equal Frequencies",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "sortings",
+        "strings"
+      ],
+      "section": "1600",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1778C",
+      "title": "Flexible String",
+      "rating": 1600,
+      "tags": [
+        "bitmasks",
+        "brute force",
+        "strings"
+      ],
+      "section": "1600",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1775C",
+      "title": "Interesting Sequence",
+      "rating": 1600,
+      "tags": [
+        "bitmasks",
+        "math"
+      ],
+      "section": "1600",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1741E",
+      "title": "Sending a Sequence Over the Network",
+      "rating": 1600,
+      "tags": [
+        "dp"
+      ],
+      "section": "1600",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1730B",
+      "title": "Meeting on the Line",
+      "rating": 1600,
+      "tags": [
+        "binary search",
+        "geometry",
+        "greedy",
+        "implementation",
+        "math",
+        "ternary search"
+      ],
+      "section": "1600",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1702E",
+      "title": "Split Into Two Sets",
+      "rating": 1600,
+      "tags": [
+        "dfs and similar",
+        "dsu",
+        "graphs"
+      ],
+      "section": "1600",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1698D",
+      "title": "Fixed Point Guessing",
+      "rating": 1600,
+      "tags": [
+        "binary search",
+        "constructive algorithms",
+        "interactive"
+      ],
+      "section": "1600",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1660D",
+      "title": "Maximum Product Strikes Back",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math",
+        "two pointers"
+      ],
+      "section": "1600",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1633D",
+      "title": "Make Them Equal",
+      "rating": 1600,
+      "tags": [
+        "dp",
+        "greedy"
+      ],
+      "section": "1600",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1610C",
+      "title": "Keshi Is Throwing a Party",
+      "rating": 1600,
+      "tags": [
+        "binary search",
+        "greedy"
+      ],
+      "section": "1600",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1555D",
+      "title": "Say No to Palindromes",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "constructive algorithms",
+        "dp",
+        "strings"
+      ],
+      "section": "1600",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1537E1",
+      "title": "Erase and Extend (Easy Version)",
+      "rating": 1600,
+      "tags": [
+        "binary search",
+        "brute force",
+        "dp",
+        "greedy",
+        "hashing",
+        "implementation",
+        "string suffix structures",
+        "strings",
+        "two pointers"
+      ],
+      "section": "1600",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1528A",
+      "title": "Parsa's Humongous Tree",
+      "rating": 1600,
+      "tags": [
+        "dfs and similar",
+        "divide and conquer",
+        "dp",
+        "greedy",
+        "trees"
+      ],
+      "section": "1600",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1498C",
+      "title": "Planar Reflections",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "data structures",
+        "dp"
+      ],
+      "section": "1600",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1475E",
+      "title": "Advertising Agency",
+      "rating": 1600,
+      "tags": [
+        "combinatorics",
+        "math",
+        "sortings"
+      ],
+      "section": "1600",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1458A",
+      "title": "Row GCD",
+      "rating": 1600,
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "section": "1600",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1407C",
+      "title": "Chocolate Bunny",
+      "rating": 1600,
+      "tags": [
+        "constructive algorithms",
+        "interactive",
+        "math",
+        "two pointers"
+      ],
+      "section": "1600",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1398C",
+      "title": "Good Subarrays",
+      "rating": 1600,
+      "tags": [
+        "data structures",
+        "dp",
+        "math"
+      ],
+      "section": "1600",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1389B",
+      "title": "Array Walk",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "dp",
+        "greedy"
+      ],
+      "section": "1600",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1349A",
+      "title": "Orac and LCM",
+      "rating": 1600,
+      "tags": [
+        "data structures",
+        "math",
+        "number theory"
+      ],
+      "section": "1600",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1336A",
+      "title": "Linova and Kingdom",
+      "rating": 1600,
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "greedy",
+        "sortings",
+        "trees"
+      ],
+      "section": "1600",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1305C",
+      "title": "Kuroni and Impossible Calculation",
+      "rating": 1600,
+      "tags": [
+        "brute force",
+        "combinatorics",
+        "math",
+        "number theory"
+      ],
+      "section": "1600",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2050F",
+      "title": "Maximum modulo equality",
+      "rating": 1700,
+      "tags": [
+        "data structures",
+        "divide and conquer",
+        "math",
+        "number theory"
+      ],
+      "section": "1700",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2041D",
+      "title": "Drunken Maze",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "dfs and similar",
+        "graphs",
+        "shortest paths"
+      ],
+      "section": "1700",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2018C",
+      "title": "Tree Pruning",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "dfs and similar",
+        "greedy",
+        "sortings",
+        "trees"
+      ],
+      "section": "1700",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2006A",
+      "title": "Iris and Game on the Tree",
+      "rating": 1700,
+      "tags": [
+        "constructive algorithms",
+        "dfs and similar",
+        "games",
+        "graphs",
+        "greedy",
+        "trees"
+      ],
+      "section": "1700",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1999G2",
+      "title": "Ruler (hard version)",
+      "rating": 1700,
+      "tags": [
+        "binary search",
+        "interactive",
+        "ternary search"
+      ],
+      "section": "1700",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1983D",
+      "title": "Swap Dilemma",
+      "rating": 1700,
+      "tags": [
+        "constructive algorithms",
+        "data structures",
+        "divide and conquer",
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "section": "1700",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1982D",
+      "title": "Beauty of the mountains",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "data structures",
+        "implementation",
+        "math",
+        "number theory"
+      ],
+      "section": "1700",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1948D",
+      "title": "Tandem Repeats?",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "strings",
+        "two pointers"
+      ],
+      "section": "1700",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1931F",
+      "title": "Chat Screenshots",
+      "rating": 1700,
+      "tags": [
+        "combinatorics",
+        "dfs and similar",
+        "graphs"
+      ],
+      "section": "1700",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1893B",
+      "title": "Neutral Tonality",
+      "rating": 1700,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1700",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1879D",
+      "title": "Sum of XOR Functions",
+      "rating": 1700,
+      "tags": [
+        "bitmasks",
+        "combinatorics",
+        "divide and conquer",
+        "dp",
+        "math"
+      ],
+      "section": "1700",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1833F",
+      "title": "Ira and Flamenco",
+      "rating": 1700,
+      "tags": [
+        "combinatorics",
+        "constructive algorithms",
+        "data structures",
+        "implementation",
+        "math",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1700",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1829H",
+      "title": "Don't Blame Me",
+      "rating": 1700,
+      "tags": [
+        "bitmasks",
+        "combinatorics",
+        "dp",
+        "math"
+      ],
+      "section": "1700",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1826D",
+      "title": "Running Miles",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "dp",
+        "greedy"
+      ],
+      "section": "1700",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1822G1",
+      "title": "Magic Triples (Easy Version)",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "data structures",
+        "math",
+        "number theory"
+      ],
+      "section": "1700",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1792D",
+      "title": "Fixed Prefix Permutations",
+      "rating": 1700,
+      "tags": [
+        "binary search",
+        "bitmasks",
+        "data structures",
+        "hashing",
+        "math",
+        "sortings"
+      ],
+      "section": "1700",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1777C",
+      "title": "Quiz Master",
+      "rating": 1700,
+      "tags": [
+        "binary search",
+        "math",
+        "number theory",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1700",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1760G",
+      "title": "SlavicG's Favorite Problem",
+      "rating": 1700,
+      "tags": [
+        "bitmasks",
+        "dfs and similar",
+        "graphs"
+      ],
+      "section": "1700",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1735D",
+      "title": "Meta-set",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "combinatorics",
+        "data structures",
+        "hashing",
+        "math"
+      ],
+      "section": "1700",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1731C",
+      "title": "Even Subarrays",
+      "rating": 1700,
+      "tags": [
+        "bitmasks",
+        "brute force",
+        "hashing",
+        "math",
+        "number theory"
+      ],
+      "section": "1700",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1715C",
+      "title": "Monoblock",
+      "rating": 1700,
+      "tags": [
+        "combinatorics",
+        "data structures",
+        "implementation",
+        "math"
+      ],
+      "section": "1700",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1709D",
+      "title": "Rorororobot",
+      "rating": 1700,
+      "tags": [
+        "binary search",
+        "data structures",
+        "greedy",
+        "math"
+      ],
+      "section": "1700",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1695C",
+      "title": "Zero Path",
+      "rating": 1700,
+      "tags": [
+        "brute force",
+        "data structures",
+        "dp",
+        "graphs",
+        "greedy",
+        "shortest paths"
+      ],
+      "section": "1700",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1692H",
+      "title": "Gambling",
+      "rating": 1700,
+      "tags": [
+        "data structures",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "section": "1700",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1690F",
+      "title": "Shifting String",
+      "rating": 1700,
+      "tags": [
+        "graphs",
+        "math",
+        "number theory",
+        "strings"
+      ],
+      "section": "1700",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1625C",
+      "title": "Road Optimization",
+      "rating": 1700,
+      "tags": [
+        "dp"
+      ],
+      "section": "1700",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1598D",
+      "title": "Training Session",
+      "rating": 1700,
+      "tags": [
+        "combinatorics",
+        "data structures",
+        "geometry",
+        "implementation",
+        "math"
+      ],
+      "section": "1700",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1594D",
+      "title": "The Number of Imposters",
+      "rating": 1700,
+      "tags": [
+        "constructive algorithms",
+        "dfs and similar",
+        "dp",
+        "dsu",
+        "graphs"
+      ],
+      "section": "1700",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1557C",
+      "title": "Moamen and XOR",
+      "rating": 1700,
+      "tags": [
+        "bitmasks",
+        "combinatorics",
+        "dp",
+        "math",
+        "matrices"
+      ],
+      "section": "1700",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1528B",
+      "title": "Kavi on Pairing Duty",
+      "rating": 1700,
+      "tags": [
+        "combinatorics",
+        "dp",
+        "math"
+      ],
+      "section": "1700",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1516C",
+      "title": "Baby Ehab Partitions Again",
+      "rating": 1700,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms",
+        "dp",
+        "math"
+      ],
+      "section": "1700",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2022C",
+      "title": "Gerrymandering",
+      "rating": 1800,
+      "tags": [
+        "dp",
+        "implementation"
+      ],
+      "section": "1800",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2014E",
+      "title": "Rendez-vous de Marian et Robin",
+      "rating": 1800,
+      "tags": [
+        "dfs and similar",
+        "graphs",
+        "shortest paths"
+      ],
+      "section": "1800",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1974E",
+      "title": "Money Buys Happiness",
+      "rating": 1800,
+      "tags": [
+        "dp"
+      ],
+      "section": "1800",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1935D",
+      "title": "Exam in MAC",
+      "rating": 1800,
+      "tags": [
+        "binary search",
+        "combinatorics",
+        "implementation",
+        "math"
+      ],
+      "section": "1800",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1915G",
+      "title": "Bicycles",
+      "rating": 1800,
+      "tags": [
+        "graphs",
+        "greedy",
+        "implementation",
+        "shortest paths",
+        "sortings"
+      ],
+      "section": "1800",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1912K",
+      "title": "Kim's Quest",
+      "rating": 1800,
+      "tags": [
+        "bitmasks",
+        "combinatorics",
+        "dp"
+      ],
+      "section": "1800",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1824B1",
+      "title": "LuoTianyi and the Floating Islands (Easy Version)",
+      "rating": 1800,
+      "tags": [
+        "combinatorics",
+        "math",
+        "probabilities",
+        "trees"
+      ],
+      "section": "1800",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1805D",
+      "title": "A Wide, Wide Graph",
+      "rating": 1800,
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "graphs",
+        "greedy",
+        "trees"
+      ],
+      "section": "1800",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1775D",
+      "title": "Friendly Spiders",
+      "rating": 1800,
+      "tags": [
+        "dfs and similar",
+        "graphs",
+        "math",
+        "number theory",
+        "shortest paths"
+      ],
+      "section": "1800",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1768D",
+      "title": "Lucky Permutation",
+      "rating": 1800,
+      "tags": [
+        "constructive algorithms",
+        "dfs and similar",
+        "graphs",
+        "greedy"
+      ],
+      "section": "1800",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1732C1",
+      "title": "Sheikh (Easy version)",
+      "rating": 1800,
+      "tags": [
+        "binary search",
+        "bitmasks",
+        "greedy",
+        "two pointers"
+      ],
+      "section": "1800",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1725M",
+      "title": "Moving Both Hands",
+      "rating": 1800,
+      "tags": [
+        "dp",
+        "graphs",
+        "shortest paths"
+      ],
+      "section": "1800",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1709C",
+      "title": "Recover an RBS",
+      "rating": 1800,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "strings"
+      ],
+      "section": "1800",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1691D",
+      "title": "Max GEQ Sum",
+      "rating": 1800,
+      "tags": [
+        "binary search",
+        "constructive algorithms",
+        "data structures",
+        "divide and conquer",
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1800",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1517D",
+      "title": "Explorer Space",
+      "rating": 1800,
+      "tags": [
+        "dp",
+        "graphs",
+        "shortest paths"
+      ],
+      "section": "1800",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1509C",
+      "title": "The Sports Festival",
+      "rating": 1800,
+      "tags": [
+        "dp",
+        "greedy"
+      ],
+      "section": "1800",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1491D",
+      "title": "Zookeeper and The Infinite Zoo",
+      "rating": 1800,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "section": "1800",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1468J",
+      "title": "Road Reform",
+      "rating": 1800,
+      "tags": [
+        "dsu",
+        "graphs",
+        "greedy"
+      ],
+      "section": "1800",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1466E",
+      "title": "Apollo versus Pan",
+      "rating": 1800,
+      "tags": [
+        "bitmasks",
+        "brute force",
+        "math"
+      ],
+      "section": "1800",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1462F",
+      "title": "The Treasure of The Segments",
+      "rating": 1800,
+      "tags": [
+        "binary search",
+        "data structures",
+        "greedy"
+      ],
+      "section": "1800",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1446B",
+      "title": "Catching Cheaters",
+      "rating": 1800,
+      "tags": [
+        "dp",
+        "strings"
+      ],
+      "section": "1800",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1442B",
+      "title": "Identify the Operations",
+      "rating": 1800,
+      "tags": [
+        "combinatorics",
+        "data structures",
+        "dsu",
+        "greedy",
+        "implementation"
+      ],
+      "section": "1800",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1437C",
+      "title": "Chef Monocarp",
+      "rating": 1800,
+      "tags": [
+        "dp",
+        "flows",
+        "graph matchings",
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "section": "1800",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1401D",
+      "title": "Maximum Distributed Tree",
+      "rating": 1800,
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "greedy",
+        "implementation",
+        "math",
+        "number theory",
+        "sortings",
+        "trees"
+      ],
+      "section": "1800",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1396B",
+      "title": "Stoned Game",
+      "rating": 1800,
+      "tags": [
+        "brute force",
+        "constructive algorithms",
+        "games",
+        "greedy"
+      ],
+      "section": "1800",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1355C",
+      "title": "Count Triangles",
+      "rating": 1800,
+      "tags": [
+        "binary search",
+        "implementation",
+        "math",
+        "two pointers"
+      ],
+      "section": "1800",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1338B",
+      "title": "Edge Weight Assignment",
+      "rating": 1800,
+      "tags": [
+        "bitmasks",
+        "constructive algorithms",
+        "dfs and similar",
+        "greedy",
+        "math",
+        "trees"
+      ],
+      "section": "1800",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1335E2",
+      "title": "Three Blocks Palindrome (hard version)",
+      "rating": 1800,
+      "tags": [
+        "brute force",
+        "data structures",
+        "dp",
+        "two pointers"
+      ],
+      "section": "1800",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1290B",
+      "title": "Irreducible Anagrams",
+      "rating": 1800,
+      "tags": [
+        "binary search",
+        "constructive algorithms",
+        "data structures",
+        "strings",
+        "two pointers"
+      ],
+      "section": "1800",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1286B",
+      "title": "Numbers on Tree",
+      "rating": 1800,
+      "tags": [
+        "constructive algorithms",
+        "data structures",
+        "dfs and similar",
+        "graphs",
+        "greedy",
+        "trees"
+      ],
+      "section": "1800",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1283D",
+      "title": "Christmas Trees",
+      "rating": 1800,
+      "tags": [
+        "graphs",
+        "greedy",
+        "shortest paths"
+      ],
+      "section": "1800",
+      "order": 31
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2044F",
+      "title": "Easy Demon Problem",
+      "rating": 1900,
+      "tags": [
+        "binary search",
+        "brute force",
+        "data structures",
+        "math",
+        "number theory"
+      ],
+      "section": "1900",
+      "order": 1
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2042D",
+      "title": "Recommendations",
+      "rating": 1900,
+      "tags": [
+        "data structures",
+        "implementation",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1900",
+      "order": 2
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2036F",
+      "title": "XORificator 3000",
+      "rating": 1900,
+      "tags": [
+        "bitmasks",
+        "dp",
+        "number theory",
+        "two pointers"
+      ],
+      "section": "1900",
+      "order": 3
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2014H",
+      "title": "Robin Hood Archery",
+      "rating": 1900,
+      "tags": [
+        "data structures",
+        "divide and conquer",
+        "greedy",
+        "hashing"
+      ],
+      "section": "1900",
+      "order": 4
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2009G1",
+      "title": "Yunli's Subarray Queries (easy version)",
+      "rating": 1900,
+      "tags": [
+        "binary search",
+        "data structures",
+        "two pointers"
+      ],
+      "section": "1900",
+      "order": 5
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "2001D",
+      "title": "Longest Max Min Subsequence",
+      "rating": 1900,
+      "tags": [
+        "brute force",
+        "constructive algorithms",
+        "data structures",
+        "greedy",
+        "implementation"
+      ],
+      "section": "1900",
+      "order": 6
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1994D",
+      "title": "Funny Game",
+      "rating": 1900,
+      "tags": [
+        "constructive algorithms",
+        "dsu",
+        "graphs",
+        "greedy",
+        "math",
+        "number theory",
+        "trees"
+      ],
+      "section": "1900",
+      "order": 7
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1992F",
+      "title": "Valuable Cards",
+      "rating": 1900,
+      "tags": [
+        "brute force",
+        "dp",
+        "greedy",
+        "number theory",
+        "two pointers"
+      ],
+      "section": "1900",
+      "order": 8
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1986F",
+      "title": "Non-academic Problem",
+      "rating": 1900,
+      "tags": [
+        "dfs and similar",
+        "graphs",
+        "trees"
+      ],
+      "section": "1900",
+      "order": 9
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1957D",
+      "title": "A BIT of an Inequality",
+      "rating": 1900,
+      "tags": [
+        "bitmasks",
+        "brute force",
+        "dp",
+        "math"
+      ],
+      "section": "1900",
+      "order": 10
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1950G",
+      "title": "Shuffling Songs",
+      "rating": 1900,
+      "tags": [
+        "bitmasks",
+        "dfs and similar",
+        "dp",
+        "graphs",
+        "hashing",
+        "implementation",
+        "strings"
+      ],
+      "section": "1900",
+      "order": 11
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1932F",
+      "title": "Feed Cats",
+      "rating": 1900,
+      "tags": [
+        "data structures",
+        "dp",
+        "sortings"
+      ],
+      "section": "1900",
+      "order": 12
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1925D",
+      "title": "Good Trip",
+      "rating": 1900,
+      "tags": [
+        "combinatorics",
+        "dp",
+        "math",
+        "probabilities"
+      ],
+      "section": "1900",
+      "order": 13
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1918D",
+      "title": "Blocking Elements",
+      "rating": 1900,
+      "tags": [
+        "binary search",
+        "data structures",
+        "dp",
+        "implementation",
+        "two pointers"
+      ],
+      "section": "1900",
+      "order": 14
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1912A",
+      "title": "Accumulator Apex",
+      "rating": 1900,
+      "tags": [
+        "data structures",
+        "implementation",
+        "sortings"
+      ],
+      "section": "1900",
+      "order": 15
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1906E",
+      "title": "Merge Not Sort",
+      "rating": 1900,
+      "tags": [
+        "constructive algorithms",
+        "dp"
+      ],
+      "section": "1900",
+      "order": 16
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1902E",
+      "title": "Collapsing Strings",
+      "rating": 1900,
+      "tags": [
+        "data structures",
+        "strings",
+        "trees"
+      ],
+      "section": "1900",
+      "order": 17
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1898D",
+      "title": "Absolute Beauty",
+      "rating": 1900,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "section": "1900",
+      "order": 18
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1882D",
+      "title": "Tree XOR",
+      "rating": 1900,
+      "tags": [
+        "bitmasks",
+        "dfs and similar",
+        "dp",
+        "greedy",
+        "trees"
+      ],
+      "section": "1900",
+      "order": 19
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1842D",
+      "title": "Tenzing and His Animal Friends ",
+      "rating": 1900,
+      "tags": [
+        "constructive algorithms",
+        "graphs",
+        "greedy"
+      ],
+      "section": "1900",
+      "order": 20
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1819B",
+      "title": "The Butcher",
+      "rating": 1900,
+      "tags": [
+        "geometry",
+        "greedy",
+        "implementation",
+        "sortings",
+        "two pointers"
+      ],
+      "section": "1900",
+      "order": 21
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1817B",
+      "title": "Fish Graph",
+      "rating": 1900,
+      "tags": [
+        "brute force",
+        "constructive algorithms",
+        "dfs and similar",
+        "graphs"
+      ],
+      "section": "1900",
+      "order": 22
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1799D1",
+      "title": "Hot Start Up (easy version)",
+      "rating": 1900,
+      "tags": [
+        "dp"
+      ],
+      "section": "1900",
+      "order": 23
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1794D",
+      "title": "Counting Factorizations",
+      "rating": 1900,
+      "tags": [
+        "combinatorics",
+        "divide and conquer",
+        "dp",
+        "math",
+        "number theory"
+      ],
+      "section": "1900",
+      "order": 24
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1777D",
+      "title": "Score of a Tree",
+      "rating": 1900,
+      "tags": [
+        "bitmasks",
+        "combinatorics",
+        "dfs and similar",
+        "dp",
+        "math",
+        "probabilities",
+        "trees"
+      ],
+      "section": "1900",
+      "order": 25
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1759G",
+      "title": "Restore the Permutation",
+      "rating": 1900,
+      "tags": [
+        "binary search",
+        "constructive algorithms",
+        "data structures",
+        "greedy",
+        "math"
+      ],
+      "section": "1900",
+      "order": 26
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1747D",
+      "title": "Yet Another Problem",
+      "rating": 1900,
+      "tags": [
+        "binary search",
+        "bitmasks",
+        "constructive algorithms",
+        "data structures"
+      ],
+      "section": "1900",
+      "order": 27
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1744E2",
+      "title": "Divisible Numbers (hard version)",
+      "rating": 1900,
+      "tags": [
+        "brute force",
+        "math",
+        "number theory"
+      ],
+      "section": "1900",
+      "order": 28
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1739D",
+      "title": "Reset K Edges",
+      "rating": 1900,
+      "tags": [
+        "binary search",
+        "data structures",
+        "dfs and similar",
+        "graphs",
+        "greedy",
+        "trees"
+      ],
+      "section": "1900",
+      "order": 29
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1715D",
+      "title": "2+ doors",
+      "rating": 1900,
+      "tags": [
+        "2-sat",
+        "bitmasks",
+        "graphs",
+        "greedy"
+      ],
+      "section": "1900",
+      "order": 30
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1700D",
+      "title": "River Locks",
+      "rating": 1900,
+      "tags": [
+        "binary search",
+        "dp",
+        "greedy",
+        "math"
+      ],
+      "section": "1900",
+      "order": 31
+    }
+  ]
+}

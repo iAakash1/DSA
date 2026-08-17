@@ -1,0 +1,44 @@
+.env
+.env.local
+*.env
+!.env.example
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+node_modules/
+dist/
+.vite/
+*.local
+
+data/*.db
+data/*.db-journal
+data/backups/*
+!data/backups/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+
+.DS_Store
+.idea/
+.vscode/
+
+# Third-party sheet exports — redistribution terms are the source's, not ours.
+data/sources/raw/*
+!data/sources/raw/.gitkeep
+data/sources/normalized/*
+!data/sources/normalized/.gitkeep
+
+# Local Claude configuration
+.claude/
+
+# Generated database / build artifacts
+*.db-shm
+*.db-wal
+*.tsbuildinfo

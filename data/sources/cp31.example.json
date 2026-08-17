@@ -1,0 +1,29 @@
+{
+  "_readme": [
+    "EXAMPLE FORMAT ONLY — three illustrative records, NOT the CP-31 corpus.",
+    "",
+    "The authoritative CP-31 sheet is 31 problems x 12 rating buckets (800-1900)",
+    "= 372 problems. That structure was read from the signed-in sheet page",
+    "(https://www.tle-eliminators.com/cp-sheet shows 'Overall Progress 0/372').",
+    "",
+    "To supply the real corpus, replace this file's `problems` array with the",
+    "authoritative export and save it as data/sources/cp31.json, then run:",
+    "  python scripts/import_cp31.py --source data/sources/cp31.json",
+    "",
+    "The importer is shape-tolerant: a raw API response, a bare array, or a",
+    "{data:[...]} wrapper all work unmodified. Only an identifier and a rating",
+    "are required per row; titles/tags are resolved from the Codeforces API."
+  ],
+  "source": {
+    "name": "CP-31 (TLE Eliminators)",
+    "url": "https://www.tle-eliminators.com/cp-sheet",
+    "buckets": [800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900],
+    "problems_per_bucket": 31,
+    "expected_total": 372
+  },
+  "problems": [
+    { "url": "https://codeforces.com/problemset/problem/4/A", "rating": 800, "order": 1 },
+    { "url": "https://codeforces.com/problemset/problem/71/A", "rating": 800, "order": 2 },
+    { "problemId": "231A", "rating": 800, "order": 3 }
+  ]
+}

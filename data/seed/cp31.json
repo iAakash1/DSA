@@ -1,0 +1,409 @@
+{
+  "_readme": [
+    "PARTIAL / DEVELOPMENT DATA \u2014 NOT the complete CP-31 sheet.",
+    "The authoritative sheet is 31 problems x 12 buckets (800-1900) = 372.",
+    "This file holds a curated subset used for development and tests only.",
+    "Supply the real export at data/sources/cp31.json \u2014 see docs/data-sources.md."
+  ],
+  "sheet": {
+    "slug": "cp31",
+    "name": "CP-31",
+    "kind": "cp31",
+    "description": "Rating-bucketed Codeforces ladder, 800-1900. PARTIAL development dataset.",
+    "source_url": "https://www.tle-eliminators.com/cp-sheet",
+    "order": 1
+  },
+  "sections": [
+    {
+      "slug": "800",
+      "name": "800",
+      "kind": "rating_bucket",
+      "rating_bucket": 800,
+      "order": 0
+    },
+    {
+      "slug": "900",
+      "name": "900",
+      "kind": "rating_bucket",
+      "rating_bucket": 900,
+      "order": 1
+    },
+    {
+      "slug": "1000",
+      "name": "1000",
+      "kind": "rating_bucket",
+      "rating_bucket": 1000,
+      "order": 2
+    },
+    {
+      "slug": "1100",
+      "name": "1100",
+      "kind": "rating_bucket",
+      "rating_bucket": 1100,
+      "order": 3
+    },
+    {
+      "slug": "1200",
+      "name": "1200",
+      "kind": "rating_bucket",
+      "rating_bucket": 1200,
+      "order": 4
+    },
+    {
+      "slug": "1300",
+      "name": "1300",
+      "kind": "rating_bucket",
+      "rating_bucket": 1300,
+      "order": 5
+    },
+    {
+      "slug": "1400",
+      "name": "1400",
+      "kind": "rating_bucket",
+      "rating_bucket": 1400,
+      "order": 6
+    },
+    {
+      "slug": "1500",
+      "name": "1500",
+      "kind": "rating_bucket",
+      "rating_bucket": 1500,
+      "order": 7
+    },
+    {
+      "slug": "1600",
+      "name": "1600",
+      "kind": "rating_bucket",
+      "rating_bucket": 1600,
+      "order": 8
+    },
+    {
+      "slug": "1700",
+      "name": "1700",
+      "kind": "rating_bucket",
+      "rating_bucket": 1700,
+      "order": 9
+    },
+    {
+      "slug": "1800",
+      "name": "1800",
+      "kind": "rating_bucket",
+      "rating_bucket": 1800,
+      "order": 10
+    },
+    {
+      "slug": "1900",
+      "name": "1900",
+      "kind": "rating_bucket",
+      "rating_bucket": 1900,
+      "order": 11
+    }
+  ],
+  "problems": [
+    {
+      "platform": "codeforces",
+      "external_id": "4A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "71A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "231A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "158A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "50A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "282A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "263A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "339A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "266B",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "236A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "110A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "617A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "133A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "41A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "112A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "281A",
+      "section": "800"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "339B",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "96A",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "460A",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "155A",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "270A",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "486A",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "580A",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "266A",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "978B",
+      "section": "900"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "118A",
+      "section": "1000"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "122A",
+      "section": "1000"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "268B",
+      "section": "1000"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "469A",
+      "section": "1000"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "230A",
+      "section": "1000"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "271A",
+      "section": "1000"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "467B",
+      "section": "1000"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "158B",
+      "section": "1100"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "456A",
+      "section": "1100"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "474B",
+      "section": "1100"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "479C",
+      "section": "1100"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "490B",
+      "section": "1100"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1006B",
+      "section": "1100"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "313B",
+      "section": "1100"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "550A",
+      "section": "1200"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "467C",
+      "section": "1200"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "702B",
+      "section": "1200"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "466A",
+      "section": "1200"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "489C",
+      "section": "1200"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1352C",
+      "section": "1200"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "25A",
+      "section": "1300"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "189A",
+      "section": "1300"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "279B",
+      "section": "1300"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1352D",
+      "section": "1300"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "6C",
+      "section": "1300"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1029C",
+      "section": "1400"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1352E",
+      "section": "1400"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1006C",
+      "section": "1400"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "550C",
+      "section": "1500"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "165B",
+      "section": "1500"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "1157C2",
+      "section": "1500"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "706C",
+      "section": "1600"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "977F",
+      "section": "1700"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "466C",
+      "section": "1700"
+    },
+    {
+      "platform": "codeforces",
+      "external_id": "474D",
+      "section": "1700"
+    }
+  ]
+}
