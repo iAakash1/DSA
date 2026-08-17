@@ -27,6 +27,7 @@ import clsx from 'clsx';
 import { api } from '../lib/api';
 import { useApi, useHotkeys } from '../hooks/useApi';
 import { AddProblemModal } from './AddProblemModal';
+import { UserMenu } from './UserMenu';
 import { CommandPalette } from './CommandPalette';
 
 const NAV = [
@@ -236,6 +237,7 @@ export function Layout() {
               <RefreshCw size={13} className={clsx(syncing && 'animate-spin')} />
               <span className="hidden sm:inline">Sync</span>
             </button>
+            <UserMenu />
             <button onClick={() => setAddOpen(true)} className="btn btn-primary">
               <Plus size={14} />
               <span className="hidden sm:inline">Add</span>

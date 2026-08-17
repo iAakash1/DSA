@@ -1,5 +1,6 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { AuthGate } from './components/AuthGate';
 import { Layout } from './components/Layout';
 import { Dashboard } from './pages/Dashboard';
 import { Problems } from './pages/Problems';
@@ -55,28 +56,30 @@ class ErrorBoundary extends Component<{ children: ReactNode }, { error: Error | 
 export function App() {
   return (
     <ErrorBoundary>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route index element={<Dashboard />} />
-          <Route path="problems" element={<Problems />} />
-          <Route path="problems/:id" element={<ProblemDetail />} />
-          <Route path="sheets/:slug" element={<SheetPage />} />
-          <Route path="missions" element={<Missions />} />
-          <Route path="recommendations" element={<Missions />} />
-          <Route path="reviews" element={<Reviews />} />
-          <Route path="collections" element={<Collections />} />
-          <Route path="collections/:slug" element={<Collections />} />
-          <Route path="analytics" element={<Analytics />} />
-          <Route path="analytics/topics" element={<TopicsPage />} />
-          <Route path="analytics/activity" element={<ActivityPage />} />
-          <Route path="contests" element={<Contests />} />
-          <Route path="icpc" element={<ICPC />} />
-          <Route path="achievements" element={<Achievements />} />
-          <Route path="coach" element={<Coach />} />
-          <Route path="settings" element={<Settings />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Route>
-      </Routes>
+      <AuthGate>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route index element={<Dashboard />} />
+            <Route path="problems" element={<Problems />} />
+            <Route path="problems/:id" element={<ProblemDetail />} />
+            <Route path="sheets/:slug" element={<SheetPage />} />
+            <Route path="missions" element={<Missions />} />
+            <Route path="recommendations" element={<Missions />} />
+            <Route path="reviews" element={<Reviews />} />
+            <Route path="collections" element={<Collections />} />
+            <Route path="collections/:slug" element={<Collections />} />
+            <Route path="analytics" element={<Analytics />} />
+            <Route path="analytics/topics" element={<TopicsPage />} />
+            <Route path="analytics/activity" element={<ActivityPage />} />
+            <Route path="contests" element={<Contests />} />
+            <Route path="icpc" element={<ICPC />} />
+            <Route path="achievements" element={<Achievements />} />
+            <Route path="coach" element={<Coach />} />
+            <Route path="settings" element={<Settings />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Route>
+        </Routes>
+      </AuthGate>
     </ErrorBoundary>
   );
 }

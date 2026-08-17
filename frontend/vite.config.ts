@@ -6,6 +6,12 @@ import path from 'node:path';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // The repository keeps one `.env` at its root, shared with the backend.
+  // Vite would otherwise only look inside `frontend/`, so VITE_* variables
+  // would silently resolve to undefined — and Clerk would look "unconfigured"
+  // with the key sitting right there. Only VITE_-prefixed keys are exposed to
+  // the browser, so the backend's secrets in the same file stay server-side.
+  envDir: path.resolve(__dirname, '..'),
   resolve: {
     alias: { '@': path.resolve(__dirname, './src') },
   },

@@ -6,6 +6,9 @@ Every externally-tunable value lives here. Nothing in the codebase may read
 
 from __future__ import annotations
 
+import base64
+import re
+
 from functools import lru_cache
 from pathlib import Path
 
@@ -52,6 +55,16 @@ class Settings(BaseSettings):
     supabase_jwt_secret: str = ""
     auth_mode: str = "local"
 
+    # -- clerk (identity provider) ----------------------------------------
+    #: Server-side only. Never reaches the browser.
+    clerk_secret_key: str = ""
+    #: Browser-safe. Shared with the frontend via the VITE_ prefix; the backend
+    #: reads it only to derive the token issuer.
+    vite_clerk_publishable_key: str = ""
+    #: Explicit override. Normally derived from the publishable key, which
+    #: encodes the Clerk frontend API host.
+    clerk_issuer: str = ""
+
     # -- ai / groq ---------------------------------------------------------
     groq_api_key: str = ""
     groq_base_url: str = "https://api.groq.com/openai/v1"
@@ -87,12 +100,45 @@ class Settings(BaseSettings):
 
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
 
+    @property
+    def clerk_configured(self) -> bool:
+        return bool(self.clerk_secret_key and self.clerk_issuer_url)
+
+    @property
+    def clerk_issuer_url(self) -> str:
+        """Clerk's token issuer, i.e. the Frontend API origin.
+
+        Clerk publishable keys are `pk_<env>_<base64 of "host$">`, so the issuer
+        is derivable from the key the frontend already needs. Deriving it beats
+        asking for a second variable that can drift out of sync with the first,
+        but `CLERK_ISSUER` still wins when set.
+        """
+        if self.clerk_issuer:
+            return self.clerk_issuer.rstrip("/")
+        key = self.vite_clerk_publishable_key.strip()
+        if not key:
+            return ""
+        _, _, encoded = key.partition("_")
+        _, _, encoded = encoded.partition("_")
+        if not encoded:
+            return ""
+        try:
+            decoded = base64.b64decode(encoded + "=" * (-len(encoded) % 4)).decode()
+        except (ValueError, UnicodeDecodeError):
+            return ""
+        host = decoded.rstrip("$").strip()
+        # Guard against a malformed key turning into a request to some other
+        # host: only Clerk-issued domains are accepted.
+        if not host or not re.fullmatch(r"[A-Za-z0-9.\-]+", host):
+            return ""
+        return f"https://{host}"
+
     @field_validator("auth_mode")
     @classmethod
     def _validate_auth_mode(cls, v: str) -> str:
         v = v.strip().lower()
-        if v not in {"local", "supabase"}:
-            raise ValueError("AUTH_MODE must be 'local' or 'supabase'")
+        if v not in {"local", "supabase", "clerk"}:
+            raise ValueError("AUTH_MODE must be 'local', 'clerk' or 'supabase'")
         return v
 
     @field_validator("codeforces_handle", "leetcode_username")

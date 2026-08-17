@@ -14,7 +14,10 @@
 
 export type AuthMode = 'local' | 'clerk';
 
-const clerkKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY as string | undefined;
+const clerkKey = (import.meta.env.VITE_CLERK_PUBLISHABLE_KEY as string | undefined)?.trim();
+
+/** The browser-safe Clerk key. The secret key never reaches this bundle. */
+export const clerkPublishableKey = clerkKey || undefined;
 
 export const authMode: AuthMode = clerkKey ? 'clerk' : 'local';
 export const isAuthConfigured = authMode !== 'local';
@@ -22,9 +25,9 @@ export const isAuthConfigured = authMode !== 'local';
 /**
  * Token getter used by the API client on every request.
  *
- * Clerk integration point: when `VITE_CLERK_PUBLISHABLE_KEY` is present, wire
- * Clerk's `getToken()` in here (see `setTokenProvider` below) and the whole app
- * becomes authenticated with no other changes.
+ * `components/AuthGate` registers Clerk's `getToken` here once Clerk has
+ * loaded. It is called per request rather than cached because Clerk rotates
+ * the session token on a short interval.
  */
 let tokenProvider: (() => Promise<string | null>) | null = null;
 

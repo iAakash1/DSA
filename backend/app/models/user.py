@@ -24,11 +24,23 @@ from app.db.types import GUID, JSONType, UTCDateTime
 class Profile(UUIDPrimaryKey, Timestamps, Base):
     """One row per user.
 
-    `id` mirrors the Supabase `auth.users.id` so the two systems never diverge.
+    `id` is the internal identity every other table foreign-keys to. Under
+    Clerk it is derived deterministically from the Clerk subject (UUIDv5), and
+    under legacy Supabase Auth it mirrors `auth.users.id` — either way it is
+    always computed from a verified token, never from request input.
     """
 
     __tablename__ = "profiles"
 
+    #: The Clerk subject this profile belongs to.
+    #:
+    #: The internal `id` is already derivable from it, so this column is not
+    #: load-bearing for lookups — it exists so the mapping is inspectable in
+    #: the database, and unique so one Clerk user can never end up owning two
+    #: profiles.
+    clerk_user_id: Mapped[str | None] = mapped_column(
+        String(64), unique=True, index=True
+    )
     email: Mapped[str | None] = mapped_column(String(320), index=True)
     username: Mapped[str] = mapped_column(String(64), nullable=False)
     display_name: Mapped[str | None] = mapped_column(String(128))

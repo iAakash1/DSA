@@ -11,7 +11,7 @@ from sqlalchemy.orm import Session
 from app.core.config import settings
 from app.core.errors import NotFoundError, ValidationError
 from app.core.logging import get_logger
-from app.core.security import AuthenticatedUser
+from app.core.security import AuthenticatedUser, fetch_clerk_profile
 from app.models.enums import SYNCABLE_PLATFORMS, Platform
 from app.models.gamification import UserStats
 from app.models.sheet import Collection
@@ -31,16 +31,55 @@ SYSTEM_COLLECTIONS: list[tuple[str, str, str, str]] = [
 
 
 def ensure_profile(db: Session, auth: AuthenticatedUser) -> Profile:
-    """Fetch the caller's profile, creating it (and its dependents) if new."""
+    """Fetch the caller's profile, creating it (and its dependents) if new.
+
+    `auth.id` is derived from the verified token — under Clerk it is a UUIDv5 of
+    the Clerk subject — so lookup by primary key is already the right thing and
+    repeated logins resolve to the same row.
+
+    The secondary lookup by `clerk_user_id` exists for the one case the primary
+    key cannot cover: a profile that predates Clerk and was later claimed by a
+    Clerk user, whose id therefore does not match the derivation.
+    """
     profile = db.get(Profile, auth.id)
+    if profile is None and auth.clerk_user_id:
+        profile = db.scalar(
+            select(Profile).where(Profile.clerk_user_id == auth.clerk_user_id)
+        )
     if profile is not None:
+        # Backfill the mapping the first time a pre-Clerk profile signs in.
+        if auth.clerk_user_id and not profile.clerk_user_id:
+            profile.clerk_user_id = auth.clerk_user_id
+            db.commit()
         return profile
+
+    display_name, email = auth.username, auth.email
+    if auth.clerk_user_id:
+        # The default Clerk session token carries no name or email; ask the
+        # Backend API once, at creation. Failure leaves the token's own values.
+        details = fetch_clerk_profile(auth.clerk_user_id)
+        if details:
+            addresses = {
+                a.get("id"): a.get("email_address")
+                for a in details.get("email_addresses") or []
+            }
+            email = addresses.get(details.get("primary_email_address_id")) or email
+            display_name = (
+                details.get("username")
+                or " ".join(
+                    part
+                    for part in (details.get("first_name"), details.get("last_name"))
+                    if part
+                ).strip()
+                or display_name
+            )
 
     profile = Profile(
         id=auth.id,
-        email=auth.email,
+        clerk_user_id=auth.clerk_user_id,
+        email=email,
         username=auth.username or str(auth.id)[:8],
-        display_name=auth.username,
+        display_name=display_name,
         timezone=settings.default_timezone,
     )
     db.add(profile)
@@ -87,6 +126,10 @@ def ensure_profile(db: Session, auth: AuthenticatedUser) -> Profile:
         # A concurrent request created it first — that is fine.
         db.rollback()
         existing = db.get(Profile, auth.id)
+        if existing is None and auth.clerk_user_id:
+            existing = db.scalar(
+                select(Profile).where(Profile.clerk_user_id == auth.clerk_user_id)
+            )
         if existing is None:
             raise
         return existing
