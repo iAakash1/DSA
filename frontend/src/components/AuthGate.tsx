@@ -57,14 +57,19 @@ function Splash({ label }: { label: string }) {
 function Session({ children }: { children: ReactNode }) {
   const { getToken, isLoaded, isSignedIn } = useAuth();
 
-  useEffect(() => {
-    if (!isSignedIn) {
-      setTokenProvider(null);
-      return;
-    }
+  // Registered during render rather than in an effect, and deliberately so:
+  // React runs child effects *before* parent effects, so an effect here would
+  // fire only after the first page had already issued its requests — with no
+  // Authorization header. The result was a signed-in user staring at "Sign in
+  // to continue". Assigning to a module singleton during render is idempotent
+  // and safe under StrictMode's double render.
+  if (isSignedIn) {
     setTokenProvider(() => getToken());
-    return () => setTokenProvider(null);
-  }, [getToken, isSignedIn]);
+  } else if (isLoaded) {
+    setTokenProvider(null);
+  }
+
+  useEffect(() => () => setTokenProvider(null), []);
 
   if (!isLoaded) return <Splash label="Starting CP-Forge" />;
   if (!isSignedIn) return <SignInScreen />;

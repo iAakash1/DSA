@@ -13,16 +13,12 @@
   },
   "dependencies": {
     "@clerk/react": "^6.14.3",
-    "@supabase/supabase-js": "^2.47.10",
-    "@tanstack/react-query": "^5.62.11",
     "clsx": "^2.1.1",
-    "date-fns": "^4.1.0",
     "lucide-react": "^0.469.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.1",
-    "recharts": "^2.15.0",
-    "zustand": "^5.0.2"
+    "recharts": "^2.15.0"
   },
   "overrides": {
     "vite": "$vite"
@@ -31,6 +27,7 @@
     "@tailwindcss/vite": "^4.0.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
+    "@types/node": "^22.20.1",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",

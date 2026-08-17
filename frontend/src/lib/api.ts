@@ -8,7 +8,27 @@
 
 import { getAccessToken } from './auth';
 
-const BASE = '/api';
+/**
+ * Where the API lives.
+ *
+ * In development this stays `/api` and Vite's dev proxy forwards to the local
+ * backend, so there is no CORS and no origin to configure. In production there
+ * is no proxy — the frontend is static files on Vercel and the backend is a
+ * separate Render service — so `VITE_API_BASE_URL` must point at it, e.g.
+ * `https://cp-forge-api.onrender.com/api`.
+ *
+ * Baked in at build time, so changing it on Vercel requires a redeploy.
+ */
+const BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined)?.trim().replace(/\/+$/, '') || '/api';
+
+if (import.meta.env.PROD && BASE.startsWith('/')) {
+  // A same-origin path in production means the deploy is missing its API URL,
+  // and every request will 404 against the static host. Say so once, loudly,
+  // rather than letting it surface as a wall of failed requests.
+  console.error(
+    'VITE_API_BASE_URL is not set. API requests will fail — set it to the backend URL and redeploy.',
+  );
+}
 
 export class ApiError extends Error {
   status: number;

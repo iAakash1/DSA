@@ -15,6 +15,21 @@ export default defineConfig({
   resolve: {
     alias: { '@': path.resolve(__dirname, './src') },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        // One 800 kB chunk means every deploy re-downloads the charting and
+        // auth libraries even when only app code changed. Splitting the three
+        // large, rarely-changing dependencies lets them stay cached across
+        // releases.
+        manualChunks: {
+          react: ['react', 'react-dom', 'react-router-dom'],
+          clerk: ['@clerk/react'],
+          charts: ['recharts'],
+        },
+      },
+    },
+  },
   server: {
     port: 5173,
     // The browser talks to FastAPI through this proxy, so the frontend never

@@ -99,6 +99,10 @@ class Settings(BaseSettings):
     default_daily_goal: int = 2
 
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    #: Regex for origins that cannot be enumerated up front — Vercel preview
+    #: deployments get a new hostname per commit. Empty by default: a wildcard
+    #: here would defeat the allowlist, so it must be set deliberately.
+    cors_origin_regex: str = ""
 
     @property
     def clerk_configured(self) -> bool:
@@ -236,7 +240,20 @@ class Settings(BaseSettings):
 
     @property
     def cors_origin_list(self) -> list[str]:
-        return [o.strip() for o in self.cors_origins.split(",") if o.strip()]
+        """Allowed browser origins.
+
+        `*` is rejected rather than honoured: the API is called with
+        credentials, and browsers refuse a wildcard on credentialed requests —
+        so a wildcard here would not loosen anything, it would silently break
+        every cross-origin call. Failing at startup is the clearer outcome.
+        """
+        origins = [o.strip() for o in self.cors_origins.split(",") if o.strip()]
+        if "*" in origins:
+            raise ValueError(
+                "CORS_ORIGINS cannot be '*' because the API uses credentials. "
+                "List the real frontend origins instead."
+            )
+        return origins
 
     @property
     def trusted_channel_ids(self) -> list[str]:
